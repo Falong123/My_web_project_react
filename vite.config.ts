@@ -10,4 +10,5 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/My_web_project_react/',
 })
