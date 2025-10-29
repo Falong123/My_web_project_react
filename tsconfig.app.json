@@ -8,12 +8,15 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
+    
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
+    "allowJs": true,          // Cho phép import và biên dịch file .js
     "jsx": "react-jsx",
 
     /* Linting */
